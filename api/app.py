@@ -17,5 +17,13 @@ def about():
         "code": 200
     })
 
+@app.route('/test')
+def test():
+    return jsonify({
+        "message": "Test",
+        "code": 200
+    })
+    
+
 if __name__ == '__main__':
     app.run(debug=True)
