@@ -10,6 +10,12 @@ def home():
         'code': 200
     }), 200
 
+@app.route('/about')
+def about():
+    return jsonify({
+        "message": "About",
+        "code": 200
+    })
 
 if __name__ == '__main__':
     app.run(debug=True)
