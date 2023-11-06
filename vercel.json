@@ -3,6 +3,10 @@
         {
             "source": "/(.*)",
             "destination": "/api/app"
+        },
+        {
+            "source": "/about(.*)",
+            "destination": "/api/app"
         }
     ]
 }
