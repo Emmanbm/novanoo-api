@@ -8,6 +8,6 @@ import json
 
 
 def get_users():
-    with open('db/db.json', 'r') as json_file:
+    with open('api/db/db.json', 'r') as json_file:
         db = json.load(json_file)
     return db['db']
