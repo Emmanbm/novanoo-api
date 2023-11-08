@@ -8,8 +8,8 @@
 <p>Pour le déploiement on fait</p>
 <pre>
 import api.objects.functions
-<pre>
+</pre>
 <p>Pour les tests en local on fait</p>
 <pre>
 import objects.functions
-<pre>
+</pre>
